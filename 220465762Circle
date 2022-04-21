@@ -1,0 +1,20 @@
+public class Circle{
+	public static void main(String[] args) {
+		double radius,area,parameter,diameter;
+		Scanner input = newScanner(System.in);
+		
+		System.out.print("Enter the radius of the circle");
+		radius = (double) ((Object) input);
+		input.close();
+		
+		area = Math.PI* radius * radius;
+		System.out.print("Area is"+area);
+		
+		
+		parameter = 2*Math.PI* radius;
+		System.out.print("Parameter is"+parameter);
+	
+		diameter = 2 * radius;
+		System.out.print("Diameter is"+diameter);
+	}
+}
